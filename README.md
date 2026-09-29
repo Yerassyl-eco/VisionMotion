@@ -4,7 +4,7 @@
 
 ADMIT HACKATHON 2026 · кейс «MOTION: Камера вместо джойстика».
 
-**Живой сайт:** https://yerassyl-eco.github.io/-/ (Chrome, разрешите доступ к камере). Демо без камеры: https://yerassyl-eco.github.io/-/?demo
+**Живой сайт:** https://yerassyl-eco.github.io/VisionMotion/ (Chrome, разрешите доступ к камере). Демо без камеры: https://yerassyl-eco.github.io/VisionMotion/?demo
 Сайт обновляется автоматически при каждом пуше (`.github/workflows/deploy.yml`).
 
 > Видео с камеры обрабатывается локально в браузере и не отправляется на сервер.
@@ -43,6 +43,8 @@ Landing ─👍→ Камера ─👍→ Анкета (1–4 пальца + �
 Нужен Node.js 20+ и современный Chrome, Edge или Safari.
 
 ```bash
+git clone https://github.com/Yerassyl-eco/VisionMotion.git
+cd VisionMotion
 npm install        # также копирует MediaPipe WASM в public/ и докачивает модели при необходимости
 npm run dev        # http://localhost:5173
 ```

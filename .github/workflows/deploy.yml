@@ -1,10 +1,10 @@
 name: Deploy site
 
 # Every push to the main working branch rebuilds the site and publishes it
-# to GitHub Pages: https://yerassyl-eco.github.io/-/
+# to GitHub Pages: https://yerassyl-eco.github.io/VisionMotion/
 on:
   push:
-    branches: [claude/amazing-shannon-qaykmw]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -29,7 +29,7 @@ jobs:
       # so the published site runs hand tracking without any CDN.
       - run: npm ci
       - run: npm test
-      - run: npx tsc -b && npx vite build --base /-/
+      - run: npx tsc -b && npx vite build --base /VisionMotion/
       - run: cp dist/index.html dist/404.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

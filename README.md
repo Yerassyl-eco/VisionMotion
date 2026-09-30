@@ -11,6 +11,7 @@ ADMIT HACKATHON 2026 · кейс «MOTION: Камера вместо джойс�
 | **Живой сайт** | https://yerassyl-eco.github.io/VisionMotion/ — откройте в Chrome, разрешите камеру, покажите 👍 |
 | **Устройство** | **Только компьютер или ноутбук с веб-камерой** (Chrome, Edge или Safari). Телефоны и планшеты не поддерживаются |
 | **Без камеры (демо)** | https://yerassyl-eco.github.io/VisionMotion/?demo — жесты подаются с панели и клавишами |
+| **Презентация** | https://canva.link/4kaj7fmspa7tn1r |
 | **Репозиторий** | https://github.com/Yerassyl-eco/VisionMotion |
 | **Запуск локально** | `npm install && npm run dev` → http://localhost:5173 (подробнее — [раздел 3](#3-как-запустить)) |
 

@@ -6,6 +6,8 @@
 
 **Деплой:** https://yerassyl-eco.github.io/VisionMotion/ (демо без камеры: https://yerassyl-eco.github.io/VisionMotion/?demo)
 
+**Презентация:** https://canva.link/4kaj7fmspa7tn1r
+
 **Важно:** сайт работает только на компьютере или ноутбуке с веб-камерой (Chrome, Edge или Safari). Телефоны не поддерживаются.
 
 ---
